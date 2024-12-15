@@ -2194,3 +2194,377 @@ WARNING: Unmatched cancel notification for request id 115
 2024.12.12 18:33:11 INFO  Shut down connection with build server.
 2024.12.12 18:33:11 INFO  Shut down connection with build server.
 2024.12.12 18:33:11 INFO  Exiting server
+2024.12.15 20:31:18 INFO  Started: Metals version 1.4.1 in folders 'C:\Users\Golits\Documents\FP\Lab2' for client Visual Studio Code 1.96.0.
+2024.12.15 20:31:20 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.15 20:31:20 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+дек. 15, 2024 8:31:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.12.15 20:31:23 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+дек. 15, 2024 8:31:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2024.12.15 20:31:23 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:23 INFO  Attempting to connect to the build server...
+2024.12.15 20:31:23 INFO  No running Bloop server found, starting one.
+2024.12.15 20:31:24 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:24 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:24 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:25 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:25 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:27 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:29 INFO  Starting compilation server
+2024.12.15 20:31:29 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:31 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:32 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:32 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 20:31:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Golits\Documents\FP\Lab2\.metals\bsp.trace.json or C:\Users\Golits\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.15 20:31:36 INFO  Attempting to connect to the build server...
+2024.12.15 20:31:36 INFO  Found a Bloop server running
+2024.12.15 20:31:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Golits\Documents\FP\Lab2\project\.metals\bsp.trace.json or C:\Users\Golits\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.15 20:31:37 INFO  time: Connected to build server in 13s
+2024.12.15 20:31:37 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.15 20:31:37 INFO  time: Imported build in 0.36s
+2024.12.15 20:31:37 INFO  running doctor check
+2024.12.15 20:31:37 INFO  java targets: lab2-build, lab2-test, lab2
+2024.12.15 20:31:43 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.15 20:31:46 INFO  time: indexed workspace in 8.23s
+дек. 15, 2024 8:32:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+дек. 15, 2024 8:32:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+2024.12.15 20:32:48 INFO  compiling lab2 (1 scala source)
+дек. 15, 2024 8:32:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Golits\Documents\FP\Lab2\.metals\.reports\metals-full\2024-12-15\r_compiler-error_(lab2)_20-32-51-688.md
+2024.12.15 20:32:59 INFO  time: compiled lab2 in 10s
+2024.12.15 20:32:59 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:33:03 INFO  time: compiled lab2 in 3.65s
+дек. 15, 2024 8:33:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 214
+дек. 15, 2024 8:33:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 283
+дек. 15, 2024 8:33:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 310
+дек. 15, 2024 8:34:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 400
+дек. 15, 2024 8:34:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 441
+дек. 15, 2024 8:34:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 442
+дек. 15, 2024 8:34:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 529
+дек. 15, 2024 8:35:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 570
+дек. 15, 2024 8:35:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 571
+дек. 15, 2024 8:35:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 581
+дек. 15, 2024 8:35:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 582
+дек. 15, 2024 8:35:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 608
+дек. 15, 2024 8:35:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 774
+2024.12.15 20:36:50 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:36:52 INFO  time: compiled lab2 in 1.76s
+2024.12.15 20:36:57 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:36:58 INFO  time: compiled lab2 in 1.4s
+2024.12.15 20:38:37 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:38:39 INFO  time: compiled lab2 in 1.63s
+2024.12.15 20:39:21 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:39:23 INFO  time: compiled lab2 in 1.12s
+дек. 15, 2024 8:39:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1169
+2024.12.15 20:39:32 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:39:33 INFO  time: compiled lab2 in 1.04s
+2024.12.15 20:39:51 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:39:52 INFO  time: compiled lab2 in 1.33s
+дек. 15, 2024 8:40:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1262
+дек. 15, 2024 8:40:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1288
+2024.12.15 20:40:53 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:40:54 INFO  time: compiled lab2 in 1.26s
+2024.12.15 20:41:22 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:41:23 INFO  time: compiled lab2 in 1.2s
+дек. 15, 2024 8:45:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1562
+2024.12.15 20:45:40 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:45:40 INFO  time: compiled lab2 in 0.92s
+дек. 15, 2024 8:45:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1661
+дек. 15, 2024 8:45:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1662
+дек. 15, 2024 8:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1675
+2024.12.15 20:46:06 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:46:06 INFO  time: compiled lab2 in 0.7s
+2024.12.15 20:46:16 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:46:16 INFO  time: compiled lab2 in 0.72s
+2024.12.15 20:46:28 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:46:28 INFO  time: compiled lab2 in 0.62s
+2024.12.15 20:46:41 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:46:41 INFO  time: compiled lab2 in 0.65s
+2024.12.15 20:46:45 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:46:45 INFO  time: compiled lab2 in 0.65s
+дек. 15, 2024 8:46:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Golits\Documents\FP\Lab2\.metals\.reports\metals-full\2024-12-15\r_compiler-error_(lab2)_20-46-51-707.md
+дек. 15, 2024 8:47:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1936
+2024.12.15 20:47:19 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:47:22 INFO  time: compiled lab2 in 3.5s
+2024.12.15 20:47:40 INFO  compiling lab2 (1 scala source)
+2024.12.15 20:47:40 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 20:47:40 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 20:47:41 INFO  time: compiled lab2 in 1.34s
+2024.12.15 20:53:58 INFO  Shutting down server
+2024.12.15 20:53:58 INFO  shutting down Metals
+2024.12.15 20:53:58 INFO  Shut down connection with build server.
+2024.12.15 20:53:58 INFO  Shut down connection with build server.
+2024.12.15 20:53:58 INFO  Exiting server
+2024.12.15 21:03:48 INFO  Started: Metals version 1.4.1 in folders 'C:\Users\Golits\Documents\FP\Lab2' for client Visual Studio Code 1.96.0.
+2024.12.15 21:03:49 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.15 21:03:49 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+дек. 15, 2024 9:03:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.12.15 21:03:51 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+дек. 15, 2024 9:03:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2024.12.15 21:03:51 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:51 INFO  Attempting to connect to the build server...
+2024.12.15 21:03:52 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:51 INFO  Found a Bloop server running
+2024.12.15 21:03:51 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:51 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+дек. 15, 2024 9:03:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2024.12.15 21:03:51 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+дек. 15, 2024 9:03:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2024.12.15 21:03:52 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:52 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:52 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:52 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Golits\Documents\FP\Lab2\.metals\bsp.trace.json or C:\Users\Golits\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.15 21:03:52 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:53 INFO  Attempting to connect to the build server...
+2024.12.15 21:03:53 INFO  Found a Bloop server running
+2024.12.15 21:03:53 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:53 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Golits\Documents\FP\Lab2\project\.metals\bsp.trace.json or C:\Users\Golits\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.15 21:03:55 INFO  time: Connected to build server in 3.24s
+2024.12.15 21:03:55 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.15 21:03:55 INFO  time: Imported build in 0.16s
+2024.12.15 21:03:55 INFO  no build target found for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.15 21:03:55 INFO  running doctor check
+2024.12.15 21:03:55 INFO  java targets: lab2-build, lab2-test, lab2
+2024.12.15 21:04:03 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.15 21:04:07 INFO  time: indexed workspace in 11s
+2024.12.15 21:06:55 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:06:56 INFO  time: compiled lab2 in 1.22s
+дек. 15, 2024 9:06:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+2024.12.15 21:07:27 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:07:27 INFO  time: compiled lab2 in 0.62s
+дек. 15, 2024 9:07:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 225
+дек. 15, 2024 9:08:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 404
+2024.12.15 21:10:34 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:10:36 INFO  time: compiled lab2 in 1.9s
+дек. 15, 2024 9:10:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 521
+дек. 15, 2024 9:10:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 519
+2024.12.15 21:10:40 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:10:42 INFO  time: compiled lab2 in 2.02s
+2024.12.15 21:10:42 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:10:44 INFO  time: compiled lab2 in 1.11s
+2024.12.15 21:11:03 INFO  Disconnecting from Bloop session...
+2024.12.15 21:11:03 INFO  Shut down connection with build server.
+2024.12.15 21:11:03 INFO  Shut down connection with build server.
+2024.12.15 21:11:03 INFO  Attempting to connect to the build server...
+2024.12.15 21:11:03 INFO  No running Bloop server found, starting one.
+2024.12.15 21:11:05 INFO  Starting compilation server
+2024.12.15 21:11:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Golits\Documents\FP\Lab2\.metals\bsp.trace.json or C:\Users\Golits\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.15 21:11:09 INFO  Attempting to connect to the build server...
+2024.12.15 21:11:09 INFO  Found a Bloop server running
+2024.12.15 21:11:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Golits\Documents\FP\Lab2\project\.metals\bsp.trace.json or C:\Users\Golits\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.15 21:11:10 INFO  time: Connected to build server in 6.75s
+2024.12.15 21:11:10 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.15 21:11:10 INFO  time: Imported build in 0.27s
+2024.12.15 21:11:10 INFO  running doctor check
+2024.12.15 21:11:10 INFO  java targets: lab2-build, lab2-test, lab2
+2024.12.15 21:11:15 INFO  time: indexed workspace in 4.16s
+2024.12.15 21:13:24 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:13:32 INFO  time: compiled lab2 in 8.1s
+2024.12.15 21:15:08 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:15:12 INFO  time: compiled lab2 in 4.1s
+2024.12.15 21:15:12 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:18 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:19 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:21 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:21 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:22 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:22 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:23 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:23 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:25 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:26 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:27 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:30 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:30 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:31 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:31 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:32 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:33 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:33 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:36 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:36 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:39 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:43 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:54 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:55 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:15:55 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:02 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:03 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:06 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:06 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:07 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:09 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:11 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:14 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:16:46 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:17:00 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:17:01 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:18:54 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:18:56 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:18:57 INFO  time: compiled lab2 in 1.8s
+2024.12.15 21:18:58 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:18:58 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:20 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:22 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:23 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:23 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:24 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:25 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:27 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:28 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:30 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:30 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:32 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:19:33 INFO  time: compiled lab2 in 1.41s
+2024.12.15 21:19:33 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:45 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:45 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:46 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:47 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:48 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:19:49 INFO  time: compiled lab2 in 1.08s
+2024.12.15 21:19:50 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:59 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:59 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:59 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:19:59 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:20:00 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:20:01 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:20:02 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:20:02 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:20:02 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:20:02 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:20:02 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:20:02 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:20:02 INFO  time: compiled lab2 in 0.47s
+2024.12.15 21:20:03 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:20:40 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:21:35 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+дек. 15, 2024 9:21:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1826
+2024.12.15 21:21:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:21:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:21:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:21:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:21:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:21:48 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:21:50 INFO  time: compiled lab2 in 1.34s
+2024.12.15 21:21:50 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:12 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:36 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:36 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:38 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:38 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:41 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:41 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:41 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:41 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:41 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:41 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:41 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:41 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:42 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:42 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:45 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:45 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:45 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:45 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:46 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:47 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:50 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:51 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:57 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:22:57 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:05 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:06 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:42 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:46 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:46 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:47 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:47 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:48 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:49 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:49 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:49 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:50 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:23:50 INFO  time: compiled lab2 in 0.49s
+2024.12.15 21:23:51 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:56 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:23:58 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:01 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:02 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:04 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:05 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:12 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:12 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:13 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:13 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:13 WARN  Could not load snapshot text for C:\Users\Golits\Documents\FP\Lab2\src\main\scala\Main.scala
+2024.12.15 21:24:13 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:24:15 INFO  time: compiled lab2 in 1.5s
+2024.12.15 21:24:47 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:24:48 INFO  time: compiled lab2 in 1.45s
+2024.12.15 21:25:16 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:25:17 INFO  time: compiled lab2 in 1.02s
+2024.12.15 21:25:38 INFO  compiling lab2 (1 scala source)
+2024.12.15 21:25:38 INFO  time: compiled lab2 in 0.89s

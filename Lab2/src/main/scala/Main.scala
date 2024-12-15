@@ -53,14 +53,15 @@ def tryGoodEnoughPassword(password:String): Either[Boolean, String] = {
           (hasNSymbols(password, UPPERCASE_LETTERS, 1), "Пароль должен содержать хотя бы одну строчную букву"),
           (hasNSymbols(password, NUMBERS_LETTERS, 1), "Пароль должен содержать хотя бы одну цифру"),
           (hasNSymbols(password, SPECIAL_LETTERS, 1), "Пароль должен содержать хотя бы один специальный символ")
-        ).reduce { 
-          case ((false, errorMsg_1: String),  (false, errorMsg_2: String))  => (false, errorMsg_1 + "\n" + errorMsg_2)
-          case ((false, errorMsg_1: String),  (true, _))                    => (false, errorMsg_1)
-          case ((true, _),                    (false, errorMsg_2: String))  => (false, errorMsg_2)
-          case ((true, _),                    (true, _))                    => (true, "")
-        } match {
-          case (false, errorMsg: String) => Right(errorMsg)
-          case (true, _) => Left(true)
+        ).filter { 
+          (x: Boolean, y: String) => !x
+        }
+        .foldLeft("") { 
+          (errorMessages: String, tuple) => errorMessages + "\n" + tuple._2
+        } 
+        match {
+          case ("") => Left(true)
+          case (errorMessages: String) => Right(errorMessages)
         }
   } match {
     case Success(result) => result
@@ -79,7 +80,7 @@ def readPassword(): Future[String] = {
     case (password: String, Left(true)) =>
       Some(password) 
     case (_, Right(errors)) =>
-      println(s"Не соблюдены условия!:\n$errors")
+      println(s"Не соблюдены условия!:$errors")
       None 
     case (_, Left(false)) =>
       println("Неизвестная ошибка\n")
