@@ -53,14 +53,14 @@ def tryGoodEnoughPassword(password:String): Either[Boolean, String] = {
           (hasNSymbols(password, UPPERCASE_LETTERS, 1), "Пароль должен содержать хотя бы одну строчную букву"),
           (hasNSymbols(password, NUMBERS_LETTERS, 1), "Пароль должен содержать хотя бы одну цифру"),
           (hasNSymbols(password, SPECIAL_LETTERS, 1), "Пароль должен содержать хотя бы один специальный символ")
-        ).collect {
+        ).reduce { 
+          case ((false, errorMsg_1: String),  (false, errorMsg_2: String))  => (false, errorMsg_1 + "\n" + errorMsg_2)
+          case ((false, errorMsg_1: String),  (true, _))                    => (false, errorMsg_1)
+          case ((true, _),                    (false, errorMsg_2: String))  => (false, errorMsg_2)
+          case ((true, _),                    (true, _))                    => (true, "")
+        } match {
           case (false, errorMsg: String) => Right(errorMsg)
           case (true, _) => Left(true)
-        }.reduce {
-          case (x: Left[Boolean, String], y: Right[Boolean, String]) => Right(y.value)
-          case (x: Right[Boolean, String], y: Left[Boolean, String]) => Right(x.value)
-          case (x: Right[Boolean, String], y: Right[Boolean, String]) => Right(x.value + "\n" + y.value)
-          case (_, _) => Left(true)
         }
   } match {
     case Success(result) => result
